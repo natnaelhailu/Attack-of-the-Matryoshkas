@@ -1,5 +1,9 @@
 # Attack of the Matryoshkas
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/98181344/168383128-2ed8f136-0361-459a-8547-77e276a23055.png" width="100" />
+</p>
+
 ## Description
 
 Ah the Matryoshka, the toy that models recursion perfectly by having identical dolls within each doll of
@@ -40,7 +44,7 @@ doll cannot contain a size 2 doll.
 
 In main, you need to prompt for an input file from which your program reads the test cases, each line is a
 single test case with integers separated by a space, each line is terminated by an end of line. You may use a
-vector of type int to store the numbers for each test case. You must then use a recursive function to verify
+vector of type `int` to store the numbers for each test case. You must then use a recursive function to verify
 each doll/subdoll, you can use a loop to match a negative number with a positive one within the recursive
 function. For each case output whether the input sequence is valid or invalid, refer to the sample output.
 
@@ -71,5 +75,4 @@ Enter filename: DollInput.txt
 ```
 ## References
 
-- Link to the top image can be found athttps://pngimg.com/image/ 49502
-
+- Link to the top image can be found at https://pngimg.com/image/49502
