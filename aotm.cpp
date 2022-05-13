@@ -68,7 +68,7 @@ int main()
 *                matryoshka or not.
 * parameters: dollInput: a vector containing the sequence of numbers.
               start: Index of the sequence to start checking from
-			  end: Index of the sequence to end the checking on
+	      end: Index of the sequence to end the checking on
 * return value: 0 if it is a matryoshka; else -1.
 */
 int is_matryoshka(const std::vector<int>& dollInput, size_t start, size_t end) {
